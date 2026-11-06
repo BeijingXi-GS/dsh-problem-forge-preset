@@ -1,0 +1,25 @@
+{
+  "name": "dsh-problem-forge-preset",
+  "version": "1.4.0",
+  "type": "module",
+  "description": "把一道题（数学/物理/化学/生物/信息学等）按难度拆成 2–8 级循序递进的子题脚手架，逐步过渡到原题，再按变式空间生成 2–5 类变式；含题目体检、五轴难度画像、Lean 4 强制形式化验证、教师版/学生版/使用说明三件套。",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-agent-preset",
+    "education",
+    "teaching",
+    "problem-design",
+    "scaffolding",
+    "exam",
+    "lean4"
+  ]
+}

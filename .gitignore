@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build / temp
+dist/
+tmp/
+*.tmp
+*~
+
+# logs
+*.log
+logs/
+
+# local env & secrets
+.env
+.env.*
+*.key
+*.pem
+.credentials.yaml
+
+# verification artifacts (never publish)
+_verify/
+_verification/
+render_smoke*/
+
+# editors / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
